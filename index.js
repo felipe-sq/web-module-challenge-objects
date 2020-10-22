@@ -13,9 +13,14 @@ The function should:
   2. Create and return an object using the received values  
 */
 
-function createMenuItem(/*Your code here*/){
-    /*Your code here*/
-}
+function createMenuItem(foodname, foodprice, foodcategory){
+    const newMenuItem = new Object();
+    newMenuItem.name = foodname;
+    newMenuItem.price = foodprice;
+    newMenuItem.category = foodcategory;
+    return newMenuItem;
+  }
+// console.log(createMenuItem("Taco", 5, "Entrees"))
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Test your createMenuItems function by doing the following:
@@ -25,7 +30,9 @@ Test your createMenuItems function by doing the following:
   
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
-
+console.log(createMenuItem("salad", 4, "lunch"));
+console.log(createMenuItem("mozzarella sticks", 5, "appetizer"));
+console.log(createMenuItem("french fries", 3, "sides"));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
