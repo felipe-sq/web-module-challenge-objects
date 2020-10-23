@@ -93,10 +93,8 @@ Using the reviews array above do the following:
   1. Following the same format (name, rating, feedback), add a new fictitious review object to the reviews array
   2. log the whole array to the console, make sure the new review is inside of it   
 */
-
-console.log(reviews.push("Felipe", 4, "Great atmosphere!"));
-// Need code to finish this task!!!!!!!! <<<<<<<<<<<<<
-
+reviews.push({name: "Felipe", rating: 4, feedback: "Great atmosphere and friendly waitstaff!"})
+console.log(reviews);
 
 
 
@@ -106,9 +104,9 @@ Reyna's feedback is missing! Use what you know to do the following:
   2. log the reviews array to the console to check your work
 */
 
+reviews[7] = ({name: "Reyna", rating: 3.5, feedback: "this place is chill with really cool people, great for getting work done on weekdays"});
 
-// Need code to finish this task!!!!!!!!
-
+console.log(reviews);
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Write a function to return a review based on the index of the review in the array.
