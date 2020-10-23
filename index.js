@@ -90,7 +90,13 @@ function specificReview (array){
   }
 }
 console.log(specificReview(reviews));
+
+
+
+
 //Still needs more work...not logging the feedback correctly for Julius.
+
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -103,6 +109,8 @@ console.log(reviews.push("Felipe", 4, "Great atmosphere!"));
 // Need code to finish this task!!!!!!!! <<<<<<<<<<<<<
 
 
+
+
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following:
   1. Add this feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"
@@ -110,7 +118,7 @@ Reyna's feedback is missing! Use what you know to do the following:
 */
 
 
-// Need code to finish this task!!!!!!!! <<<<<<<<<<<<<
+// Need code to finish this task!!!!!!!!
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
