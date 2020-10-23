@@ -82,8 +82,8 @@ Using the reviews array above:
   1. log only Julius' feedback to the console
 */
 
-// Needs more work!
-console.log(reviews["Julius"]);
+// Needs more work????
+console.log(reviews[reviews.length -3].feedback);
 
 
 
@@ -94,6 +94,8 @@ Using the reviews array above do the following:
 */
 
 console.log(reviews.push("Felipe", 4, "Great atmosphere!"));
+// Need code to finish this task!!!!!!!! <<<<<<<<<<<<<
+
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
 Reyna's feedback is missing! Use what you know to do the following:
@@ -102,7 +104,7 @@ Reyna's feedback is missing! Use what you know to do the following:
 */
 
 
-
+// Need code to finish this task!!!!!!!! <<<<<<<<<<<<<
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
@@ -136,7 +138,6 @@ function getLastReview(array) {
   const lastReview = array[array.length -1]
   return (`${lastReview.name} gave the restaurant a ${lastReview.rating} star review, and their feedback was: ${lastReview.feedback}`)
 } 
-
 
 
 ///////////////🍔☕️🍽 STRETCH🍔☕️🍽////////////////////
