@@ -84,19 +84,8 @@ Using the reviews array above:
   1. log only Julius' feedback to the console
 */
 
-function specificReview (array){
-  if (array.name === "Julius"){
-  return array.feedback;
-  }
-}
-console.log(specificReview(reviews));
 
-
-
-
-//Still needs more work...not logging the feedback correctly for Julius.
-
-
+console.log(reviews[5].feedback);
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
