@@ -52,17 +52,19 @@ export const burger = {
   name: "Burger", 
   price: 18, 
   category: "Lunch", 
-  /*Your code here*/
-  discount: function() {
-    if (this.discount === "teacher" || this.discount === "student"){
-      return this.price * 0.75;
+  discount: function(string) {
+    if (string === "student" || string === "teacher"){
+      return (this.price * 0.75);
+    }
+    else if (this.discount === "public"){
+      return (this.price * 0.90);
     }
     else {
-      return this.price * 0.90;
+      return (this.price);
     }
   }
 }
-
+console.log(burger.discount("teacher"));
 
 
 ///////////////Reviews (MVP)///////////////////
@@ -82,9 +84,13 @@ Using the reviews array above:
   1. log only Julius' feedback to the console
 */
 
-// Needs more work????
-console.log(reviews[reviews.length -3].feedback);
-
+function specificReview (array){
+  if (array.name === "Julius"){
+  return array.feedback;
+  }
+}
+console.log(specificReview(reviews));
+//Still needs more work...not logging the feedback correctly for Julius.
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
